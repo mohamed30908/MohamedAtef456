@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Tajawal:wght@800&display=swap');
+*{
+  font-family: 'Cairo';
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  background-color: #2C3E50;
+  color: white;
+  border-top: solid crimson 5px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+header:hover{
+  border-top: solid 1ABC9C 4px;
+}
+header a{
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 16px;
+  transition:ease .1s;
+}
+header a:hover{
+  color: #1ABC9C;
+  font-size: 20px;
+}
+
+
+.carsour{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-size: cover;
+  background-image: url(photo/R.jpg);
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, .4);
+  background-position: center;
+}
+
+.carsour div{
+  margin-left: 80px;
+}
+.carsour span{
+  color: crimson;
+}
+.carsour a{
+  color: white;
+  text-decoration: none;
+  background-color: #1ABC9C;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: ease 1s;
+}
+.carsour h2{
+  color: royalblue;
+}
+.carsour a:hover{
+  transform: scale(1,1);
+  font-size: 20px;
+  background-color: #2C3E50;
+}
+.card h3{
+  color: crimson;
+  font-weight: 1000;
+  align-items: center;
+}
+.services h2{
+  text-align: center;
+  margin: 30px 0px;
+}
+.services .container{
+  display: flex;
+  padding: 0px 80px;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.services .card{
+  margin-right: 20px;
+  box-shadow: 3px 3px 6px 6px #ccc;
+  width: 16em;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.card h3{
+  color: crimson;
+  font-weight: 1000;;
+}
+.card p{
+  font-size: 12px;
+}
+.services .card> div{
+  color: #2C3E50;
+  font-size: 50px;
+}
+.protofilio{
+  background-color: #2C3E50;
+  text-align: center;
+  padding: 30px 100px;
+  
+}
+.protofilio h2{
+  color: white;
+  margin-bottom: 20px;
+  border-bottom: solid crimson;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.protofilio .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.protofilio .card{
+  background-color: white;
+  border: solid;
+  border-radius: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  width: 18em;
+  margin-bottom: 30px;
+  overflow: hidden;
+  min-height: 250px;
+}
+.protofilio button{
+  border-radius: 10px;
+  color: white;
+  background-color: #1ABC9C;
+  padding: 0px 8px;
+  border: none;
+  transition: 1s ease;
+}
+.protofilio button:hover{
+  transform: scale(1.1);
+}
+
+.protofilio .card-desc{
+  margin: 0px 10px;
+  
+}
+.protofilio .card-desc p{
+  font-siz: 12px;
+  line-height: 1.32;
+  font-weight: 700;
+}
+
+.card img{
+  height: 18em;
+}
+.protofilio .card-desc button{
+  align-self: end;
+  margin-left: 10px;
+  font-weight: 700;
+}
+.protofilio img{
+  height: 18em;
+  width: 100%;
+  object-fit: cover;
+}
+.notilla{
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.notilla p{
+  font-size: 13px;
+}
+.notilla h2{
+  color: crimson;
+}
+.notilla-desc{
+  width: 60%;
+  text-align: center;
+}
+.notilla-img{
+  width: 40%;
+  margin-right: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 2px rgb(0, 0, 0 / 40%);
+}
+  notilla-img-rtl{
+    width: 40%;
+    margin-left: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0 / 40%);
+  }
+.about{
+  padding: 50px;
+  background-image: url(photo/18.jpg);
+  min-height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, .4);
+  flex-wrap: wrap;
+  text-align: center;
+}
+.about h2{
+  color: white;
+  font-size: 50px;
+  border-bottom: solid black;
+  display: inline-block;
+}
+.about img{
+  border-radius: 50%;
+  width: 15em;
+  height: 15em;
+  border: solid white;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+.about>div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px
+}
+
+footer{
+  text-align: center;
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px;
+}
+
+
+.up{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: crimson;
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.up:hover{
+  background: #1ABC9C;
+}
+
+
+
+.contact{
+  padding: 100px;
+  background: rgb(42, 0, 217);
+  background: linear-gradient(90deg, rgba(42, 0, 217, 0.383432511188069) 15%, rgba(4, 25, 34, 1) 89%);
+  text-align: center;
+}
+
+.contact h2{
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  border-bottom: solid;
+  display: inline-block
+}
+
+.input_form{
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.input_form input{
+  border: none;
+  border-bottom: solid #1ABC9C;
+  outline: none;
+  padding: 0px 5px;
+  width: 100%;
+  height: 40px;
+}
+
+.input_form label{
+  font-size: 12px; 
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  transition: all 1s;
+  pointer-events: none;
+}
+
+.input_form input:hover~label{
+  top: 13%;
+  
+}
+
+.input_form input:valid~label{
+  
+}
+
+.send{
+  padding: 5px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #2C3E50;
+  color: white;
+  transition: all 1s;
+}
+.send:hover{
+  transform: scale(1.1);
+  background-color: #1ABC9C;
+}
+.fo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2C3E50;
+  background: #1ABC9C
+  
+  
+}
